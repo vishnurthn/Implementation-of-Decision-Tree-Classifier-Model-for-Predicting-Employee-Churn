@@ -63,7 +63,7 @@ RegisterNumber: 24001855
 ![image](https://github.com/user-attachments/assets/64e4bb0c-0a77-4e57-b146-7a3788757916)
 ![image](https://github.com/user-attachments/assets/ce400469-3c4b-4bd8-80ea-69e62566d835)
 ![image](https://github.com/user-attachments/assets/d625e6d4-44bd-4465-b3d3-00a97528ba8b)
-![image](https://github.com/user-attachments/assets/f6328ecb-c8c1-4268-830e-0cb6e992b70f)
+
 
 
 
