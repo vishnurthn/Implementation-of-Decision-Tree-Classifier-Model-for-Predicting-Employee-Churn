@@ -14,43 +14,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 4. 
 
 ## Program:
+
+![Screenshot 2024-12-13 084704](https://github.com/user-attachments/assets/66785f19-a9fd-4365-b074-d32e5581480d)
+
+
+
 ```
-
-
-
-import pandas as pd
- data=pd.read_csv("Employee.csv")
- print("data.head():")
- data.head()
- print("data.info():")
- data.info()
- print("data.info():")
- data.info()
- print("data value countrs():")
- data["left"].value_counts()
- from sklearn.preprocessing import LabelEncoder
- le=LabelEncoder()
- print("data.head() for salary:")
- data["salary"]=le.fit_transform(data["salary"])
- data.head()
- print("x.head():")
- x=data[["satisfaction_level","last_evaluation","number_project","average_montly_hours",]]
- x.head()
- y=data["left"]
- from sklearn.model_selection import train_test_split
- x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=100)
- from sklearn.tree import DecisionTreeClassifier
- dt=DecisionTreeClassifier(criterion="entropy")
- dt.fit(x_train,y_train)
- y_pred=dt.predict(x_test)
- print("Accuracy value:")
- from sklearn import metrics
- accuracy=metrics.accuracy_score(y_test,y_pred)
- accuracy
- print("Data prediction:")
- dt.predict([[0.5,260,0,2]])
-
-
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Vishnurathan
